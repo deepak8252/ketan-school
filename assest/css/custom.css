@@ -512,7 +512,6 @@ background-color: rgb(34, 255, 0);
     background-attachment: fixed;
     position: relative;
     z-index: 1;
-    height: 100vh;
     
   }
   .footer::before {
@@ -617,4 +616,17 @@ transform: scale(1.2);
   /* footer section end */
   .footer-bottom{
     background-color: darkblue;
+  }
+  .dark{
+    background-color: black !important;
+    color: rgb(204, 139, 139);
+  }
+  .fixed{
+    position: fixed;
+    top: 120px;
+    right: 30px ;
+    background-color: green;
+    color: wheat;
+    padding: 10px;
+    z-index: 22222;
   }
